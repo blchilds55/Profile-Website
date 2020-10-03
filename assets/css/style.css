@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(116, 85, 85);
+    height: 100px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    background-color: rgb(71, 71, 126);
+    margin: 20px 0px;
+    padding: 0px 7px 0px 20px;
+}
+
+header div h1 {
+    color: rgb(145, 124, 124);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+}
+
+header ul li {
+    border-bottom: solid blue 5px;
+}
