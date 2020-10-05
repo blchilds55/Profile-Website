@@ -24,6 +24,7 @@ header a {
 footer a {
     text-decoration: none;
     color: rgb(30, 35, 38);
+    border-bottom: solid  rgb(30, 35, 38) 2px;
 }
 
 ul {
@@ -221,12 +222,16 @@ h2 {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .about-me {
         height: 700px;
     }
 
     p {
         font-size: 14px;
+    }
+
+    footer a {
+        font-size: 13px;
     }
 }
